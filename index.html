@@ -5,33 +5,9 @@
 	<title>Document</title>
 </head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<style>
-		video#bgvid { 
-		    position: fixed;
-		    top: 50%;
-		    left: 50%;
-		    min-width: 100%;
-		    min-height: 100%;
-		    width: auto;
-		    height: auto;
-		    z-index: -100;
-		    -ms-transform: translateX(-50%) translateY(-50%);
-		    -moz-transform: translateX(-50%) translateY(-50%);
-		    -webkit-transform: translateX(-50%) translateY(-50%);
-		    transform: translateX(-50%) translateY(-50%);
-		    background: url(polina.jpg) no-repeat;
-		    background-size: cover; 
-		}
-
-		@media screen and (max-device-width: 800px) {
-		    html {
-		         background: url(polina.jpg) #000 no-repeat center center fixed;
-		    }
-		    #bgvid {
-		        display: none;
-		    }
-		}
-	</style>
+	<!-- A Boatload of Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600|Oxygen:400,300,700|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/custom.min.css">
 <body>
 	<!-- http://syddev.com/jquery.videoBG/ -->
 	<!-- http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video -->
@@ -40,8 +16,9 @@
 	    <source src="video/forest.webm" type="video/webm">
 	    <source src="video/forest.mp4" type="video/mp4">
 	</video>
-	<h1>This is a Title</h1>
-
+	<div class="parent">
+		<h1 class="center-text-trick child">Need some me time ?</h1>
+	</div>
 	<button id="vidpause">Pause</button>
 
 	<!-- All scripts here -->
